@@ -1,0 +1,56 @@
+aside {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+   margin-top: 15px;
+
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+aside ul li {
+    margin-bottom: 10px;
+}
+aside ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.tittle{
+    align-items: center;
+    text-align: center;
+    background-color: brown;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+section {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) of the container */
+    width: 90%; /* Set section width */
+    margin: 0 auto; /* Center section horizontally */
+    margin-top: 20px; /* Add margin from the top */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px; /* Add padding for space inside the section */
+
+}
+.listprod {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    background-color: #f0f0f0; /* Example background color */
+}
+.prod{
+    margin-bottom: 15px;
+}
+
+.btnstyle{
+    text-align: center;
+}
